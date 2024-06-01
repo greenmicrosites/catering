@@ -1,5 +1,4 @@
 
-
 const justFood = (peopleAmount) => {  
     cateringName = "Just Food"    
     cateringprice = 300
@@ -19,4 +18,4 @@ const createEvent = (eventName, peopleAmount, catering) => {
     return document.querySelector(".hlaska").innerHTML = "Událost " + eventName + " s cateringem od " + cateringName + " pro " + peopleAmount + " lidí za " + cateringprice*peopleAmount + " Kč."
 }
 
-createEvent("Narozeniny", 10, justFood())
+createEvent("Narozeniny", 85, justFood())
